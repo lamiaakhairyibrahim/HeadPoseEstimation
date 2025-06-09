@@ -33,8 +33,48 @@
 
     - This approach provides a denser and more expressive facial representation than the original 68-point format, which may improve performance in complex pose and expression scenarios.
 
+  - ### How to use:
+  ``` python 
+  from your_script_file import bounding
 
-## Results
-## How to Run
-## Future Work
-## Contributors
+  dataset_path = 'path_to_dataset'
+  output_path = 'path_to_output_folder'
+  new_size = (width, height)
+
+  bounding(dataset_path, output_path, new_size) 
+  ```
+
+- ## how to run
+
+  - **Creation of virtual environments**
+  ```
+    python -m venv <name of your environment>
+  ```
+ - **activation of environment**
+ ```
+   <name of your environment>\Scripts\activate
+ ```
+ - **Change the directory inside to the environment**
+   ```
+   cd <name of your environment>
+   ```
+ - **creat folder in this directory**
+   ```
+    md src
+   ```
+ - **Change the directory inside to src**
+    ```
+     cd src
+    ```
+- **Colne this repository:**
+   ```
+   git clone <url of repo >
+  ```
+ - **install the required dependencies:**
+  ```
+   pip install -r requirements.txt
+  ```
+ - **Run the credit_card_fraud_detection.py script:**
+ ```
+ python main.py <path of data> <path of video>
+ ```

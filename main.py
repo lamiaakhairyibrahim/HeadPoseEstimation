@@ -1,8 +1,8 @@
-from src.collect import collect_out
+from collect import collect_out
 import argparse
 
 def data_org(data_org_path , video_path_):
-    data_input = collect_out(path_of_data = data_org_path , video_path= video_path_)
+    data_input = collect_out( data_org_path ,  video_path_)
     
 def main():
     parser = argparse.ArgumentParser(description="enter the dataset path.")
